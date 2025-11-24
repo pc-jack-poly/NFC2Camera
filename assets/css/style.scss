@@ -281,13 +281,13 @@
   }
 }
 
-/* Barcode gallery styling */
+/* Barcode gallery styling - 2 rows layout */
 .barcode-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 1.5rem;
+  max-width: 900px;
+  margin: 2rem auto;
   padding: 1rem;
 }
 
@@ -295,22 +295,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 140px;
+  justify-content: flex-start;
 }
 
 .barcode-item img {
   width: 100%;
+  max-width: 250px;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .barcode-label {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
+  margin-top: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #333;
   text-align: center;
@@ -318,24 +319,26 @@
 
 @media screen and (max-width: 768px) {
   .barcode-gallery {
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 1rem;
   }
   
-  .barcode-item {
-    width: 120px;
+  .barcode-item img {
+    max-width: 200px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .barcode-gallery {
-    gap: 0.8rem;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
   }
   
-  .barcode-item {
-    width: 100px;
+  .barcode-item img {
+    max-width: 250px;
   }
   
   .barcode-label {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
