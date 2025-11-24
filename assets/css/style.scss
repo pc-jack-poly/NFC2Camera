@@ -6,7 +6,7 @@
 
 // Custom header background image
 .page-header {
-  background-image: linear-gradient(120deg, #155799, #159957), url('../images/header-bg.jpg');
+  background-image: linear-gradient(120deg, rgba(21, 87, 153, 0.8), rgba(21, 153, 87, 0.8)), url('{{ "/assets/images/header-bg.jpg" | relative_url }}');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
