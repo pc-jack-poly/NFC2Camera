@@ -21,7 +21,7 @@ title: ""
 <!-- ## Teaser Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-JItdyhV1ik" title="IEEE S&amp;P 2023 Teaser Video &quot;Inducing Wireless Chargers to Voice Out for Inaudible Command Attacks&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
-## Demo 1: Magnetically Induced Voice Command Attack
+## Demo: NFC-to-Camera Communication with EAN13 Format
 <div class="video-container-50-left">
   <video controls preload="metadata">
     <source src="{{ 'assets/videos/parasiteattack.mp4' | relative_url }}" type="video/mp4">
@@ -29,17 +29,6 @@ title: ""
     <a href="{{ 'assets/videos/parasiteattack.mp4' | relative_url }}">Download video</a>
   </video>
   
-</div>
-
-
-## Demo 2: Small Language Models enabled On-device Defense
-
-<div class="video-container-25">
-  <video controls preload="metadata">
-    <source src="{{ 'assets/videos/defense_demo.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-    <a href="{{ 'assets/videos/defense_demo.mp4' | relative_url }}">Download video</a>
-  </video>
 </div>
 
 
