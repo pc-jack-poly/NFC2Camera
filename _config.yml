@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: Secure NFC-to-Camera Communication via Commercial Barcodes
+title: From Magnetic to Optical: NFC-to-Camera Side-Channel Communication via Standards-Compliant Barcodes
 description: Cheng Peng, Donghui Dai and Lei Yang, Department of Computing, The Hong Kong Polytechnic University
 baseurl: "/NFC2Camera"
 titles_from_headings:
