@@ -65,6 +65,11 @@ Our approach is compatible with nearly all existing commercial barcode standards
 </div>
 
 
+<p class="publication-note">
+  <span class="publication-note-icon" aria-hidden="true">📄</span>
+  <em>This work has been accepted for publication in the <strong>IEEE Internet of Things Journal</strong>. The article is available on <a href="https://ieeexplore.ieee.org/document/11593872" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>.</em>
+</p>
+
 
 
 <!-- ## Paper
