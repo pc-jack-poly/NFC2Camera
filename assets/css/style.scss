@@ -342,3 +342,71 @@
     font-size: 0.9rem;
   }
 }
+
+/* Page views and like button */
+.page-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin: 2.5rem 0 0;
+  padding: 1rem;
+  border-top: 1px solid #e6e8eb;
+  color: #586069;
+  font-size: 0.95rem;
+}
+
+.page-stats[hidden] {
+  display: none;
+}
+
+.page-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.page-stat strong,
+.like-button strong {
+  color: #24292f;
+  font-variant-numeric: tabular-nums;
+}
+
+.like-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #d0d7de;
+  border-radius: 999px;
+  background: #fff;
+  color: #24292f;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+}
+
+.like-button:hover:not(:disabled) {
+  border-color: #157878;
+  background: #f3faf9;
+  transform: translateY(-1px);
+}
+
+.like-button[aria-pressed="true"] {
+  border-color: #cf3f74;
+  background: #fff5f8;
+  color: #b4235a;
+}
+
+.like-button:disabled {
+  cursor: default;
+}
+
+.stats-status {
+  flex-basis: 100%;
+  min-height: 1.2em;
+  text-align: center;
+  color: #b42318;
+  font-size: 0.82rem;
+}

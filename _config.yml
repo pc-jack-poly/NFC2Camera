@@ -8,3 +8,8 @@ polyu_logo_url: assets/images/polyu-logo.png
 polyu_comp_logo_url: assets/images/polyu-comp-logo.png
 github:
   repository_url: https://github.com/pc-jack-poly/NFC2Camera
+
+# Page statistics (Settings > API in your Supabase project).
+# The publishable key is designed for browser use; never put a secret/service-role key here.
+supabase_url: "https://yiajgusrqsowpzfehfdw.supabase.co"
+supabase_publishable_key: "sb_publishable_SDLIarhANCBwB1-93e-PNQ_U6QPQun2"
